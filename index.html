@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@mdi/font@6.9.96/css/materialdesignicons.min.css">
+
+    <title>Doguinho's</title>
+</head>
+<body data-bs-spy="scroll" data-bs-target="#menu">
+    <div class="container">
+        <header class="d-flex flex-wrap justify-content-center py-3 mb-5 border-bottom sticky-top bg-light">
+          <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
+            <span class="text-primary fs-4 fw-bold"><i class="mdi mdi-dog"></i> Doguinho's</span>
+          </a>
+
+          <div class="form-check form-switch ms-auto mt-2 me-5">
+            <label id="icone-toogle" class="form-check-label ms-3" for="lightSwitch">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="25"
+                height="25"
+                fill="currentColor"
+                class="bi bi-brightness-high"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M8 11a3 3 0 1 1 0-6 3 3 0 0 1 0 6zm0 1a4 4 0 1 0 0-8 4 4 0 0 0 0 8zM8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0zm0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13zm8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5zM3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8zm10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0zm-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0zm9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707zM4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708z"
+                />
+              </svg>
+            </label>
+            <input class="form-check-input" type="checkbox" id="lightSwitch" />
+          </div>
+    
+          <ul id="menu" class="nav nav-pills">
+            <li class="nav-item"><a href="#topo" class="nav-link active" aria-current="page">Home</a></li>
+            <li class="nav-item"><a href="#servicos" class="nav-link">Serviços</a></li>
+            <li class="nav-item"><a href="#precos" class="nav-link">Preços</a></li>
+            <li class="nav-item"><a href="#faq" class="nav-link">FAQs</a></li>
+            <li class="nav-item"><a href="#contato" class="nav-link">Contato</a></li>
+          </ul>
+        </header>
+
+        <section id="topo" class="my-5 py-5">
+            <div class="row text-center text-md-start">
+                <div class="col-md-6">
+                    <h2 class="fs-5">Aqui o seu amigo é tratado com carinho.</h2>
+                    <h1 class="display-3 fw-bold">Clínica Veterinária</h1>
+                    <p class="text-muted mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia maiores totam minima eos sapiente ipsum reiciendis quod nostrum, dolor, repellendus qui est repellat, quasi architecto at doloremque labore eaque laborum.</p>
+                    <a href="#" class="btn btn-primary mt-4 w-50 p-3 fw-bold">Agendar Consulta <i class="mdi mdi-arrow-right-thick"></i></a>
+                </div>
+                <div class="col-md-6 mt-3">
+                    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+                    <lottie-player class="m-0 m-auto float-none float-md-end"src="https://assets2.lottiefiles.com/packages/lf20_erya171l.json"  background="transparent"  speed="1"  style="max-width: 70%;"  loop  autoplay></lottie-player>
+                </div>
+            </div>
+        </section>
+
+        <section id="servicos" class="text-center py-5 my-5">
+            <div class="row">
+                <div class="col-12 mt-5 pt-5">
+                    <h2 class="display-5 fw-bold">Serviços Prestados</h2>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-lg-4 mt-5">
+                  <img class="rounded-circle border shadow p-5" src="assets/vacinado.png" alt="Vacina">
+          
+                  <h2 class="fw-normal mt-3">Vacinação</h2>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt incidunt rerum dolores, assumenda excepturi ullam hic quasi illo libero animi doloribus.</p>
+                  <p><a class="btn btn-secondary" href="#">View details »</a></p>
+                </div><!-- /.col-lg-4 -->
+                <div class="col-lg-4 mt-5">
+                  <img class="rounded-circle border shadow p-5" src="assets/veterinario.png" alt="Emergências">
+          
+                  <h2 class="fw-normal mt-3">Emergências</h2>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt incidunt rerum dolores, assumenda excepturi ullam hic quasi illo libero animi doloribus.</p>
+                  <p><a class="btn btn-secondary" href="#">View details »</a></p>
+                </div><!-- /.col-lg-4 -->
+                <div class="col-lg-4 mt-5">
+                    <img class="rounded-circle border shadow p-5" src="assets/dog.png" alt="Raio-X">
+          
+                  <h2 class="fw-normal mt-3">Raio-X</h2>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt incidunt rerum dolores, assumenda excepturi ullam hic quasi illo libero animi doloribus.</p>
+                  <p><a class="btn btn-secondary" href="#">View details »</a></p>
+                </div><!-- /.col-lg-4 -->
+              </div>
+        </section>
+        <section id="precos" class="py-5 my-5">
+            <div class="pricing-header pt-5 mt-5 text-center">
+                <h1 class="display-4 fw-normal py-4 fw-bold">Preços</h1>
+                <p class="fs-5 text-muted mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores, quasi tenetur dolore maiores soluta sunt fuga architecto assumenda, ullam nihil eveniet ducimus mollitia nesciunt delectus commodi repellendus similique, eos voluptas?</p>
+              </div>
+              <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+                <div class="col">
+                  <div class="card mb-4 rounded-3 shadow-sm">
+                    <div class="card-header py-3 bg-light">
+                      <h4 class="my-0 fw-normal">Plano Gratuito</h4>
+                    </div>
+                    <div class="card-body bg-light">
+                      <h1 class="card-title pricing-card-title">R$0<small class="text-muted fw-light">/mês</small></h1>
+                      <ul class="list-unstyled mt-3 mb-4">
+                        <li>Castração</li>
+                        <li>Check-Up Geral a cada 6 meses</li>
+                        <li>Suporte por Email</li>
+                        <li>Acesso ao Grupo de Ajuda no Telegram</li>
+                        <li>Desconto de <strong>5%</strong> em Remédios na 1° compra.</li>
+                      </ul>
+                      <button type="button" class="w-100 btn btn-lg btn-outline-primary">Assine Agora</button>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card mb-4 rounded-3 shadow-sm">
+                    <div class="card-header bg-light py-3">
+                      <h4 class="my-0 fw-normal">Pro</h4>
+                    </div>
+                    <div class="card-body bg-light">
+                      <h1 class="card-title pricing-card-title">R$30<small class="text-muted fw-light">/mês</small></h1>
+                      <ul class="list-unstyled mt-3 mb-4">
+                        <li>Exame Completo a cada 6 meses</li>
+                        <li>Castração e Vacinação</li>
+                        <li>Suporte Prioritário por Email e Telefone</li>
+                        <li>Acesso ao Grupo de Ajuda no Telegram</li>
+                        <li>Desconto de até <strong>10%</strong> em Remédios.</li>
+                      </ul>
+                      <button type="button" class="w-100 btn btn-lg btn-primary">Get started</button>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card mb-4 rounded-3 shadow-sm border-primary">
+                    <div class="card-header py-3 text-bg-primary border-primary">
+                      <h4 class="my-0 fw-normal">Plano Completo</h4>
+                    </div>
+                    <div class="card-body bg-light">
+                      <h1 class="card-title pricing-card-title">R$45<small class="text-muted fw-light">/mês</small></h1>
+                      <ul class="list-unstyled mt-3 mb-4">
+                        <li>Exame Completo a cada 3 meses</li>
+                        <li>Castração e Vacinação</li>
+                        <li>Suporte particular por Whatsapp.</li>
+                        <li>Acesso ao Grupo de Ajuda no Telegram</li>
+                        <li>Desconto de até <strong>17%</strong> em Remédios.</li>
+                      </ul>
+                      <button type="button" class="w-100 btn btn-lg btn-primary">Contact us</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </section>
+        <section id="faq" class="py-5 my-5">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <h2 class="display-5 fw-bold py-5 mt-5">Perguntas Frequentes</h2>
+                </div>
+            </div>
+            <div class="row mt-3">
+                <div class="col-12">
+                    <div class="accordion" id="accordionExample">
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="headingOne">
+                            <button class="text-primary accordion-button bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                              A castração é gratuíta?
+                            </button>
+                          </h2>
+                          <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                            <div class="text-secondary accordion-body bg-light">
+                              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae sit dicta delectus. Unde illum neque cumque dolore fugiat ut, est doloribus nesciunt nam obcaecati repudiandae, quaerat, deserunt atque ipsa magnam.</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="headingTwo">
+                            <button class="text-primary accordion-button collapsed bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                              Por quanto tempo o Animal fica retido?
+                            </button>
+                          </h2>
+                          <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                            <div class="text-secondary accordion-body bg-light">
+                              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio esse praesentium non.</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="headingThree">
+                            <button class="text-primary accordion-button collapsed bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                              Estão contratando?
+                            </button>
+                          </h2>
+                          <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                            <div class="text-secondary accordion-body bg-light">
+                              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit consequatur neque velit aut animi ipsa impedit.</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+            </div>
+        </section>
+        <section id="contato" class="pt-5 mt-5">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <h2 class="display-5 fw-bold py-5 mt-5">Contato</h2>
+                </div>
+            </div>
+            <div class="row align-items-md-stretch text-center">
+                <div class="col-md-6">
+                    <div class="h-100 p-5 bg-light border rounded-3">
+                    <h2>Fale Conosco</h2>
+                    <p class="pt-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt perspiciatis assumenda molestiae numquam non officiis quidem animi excepturi eaque ipsa. Reprehenderit officia doloremque sed tempore doloribus aspernatur consequatur? Neque, officiis!</p>
+                    <p class="mt-4"><i class="mdi mdi-phone mx-1"></i>(00) 00000-0000</p>
+                    <p><i class="mdi mdi-email mx-1"></i>contato@doguinhos.com</p>
+                    <button class="btn btn-success w-75 mt-5 py-4" type="button"><i class="mdi mdi-whatsapp mx-1"></i>Whatsapp</button>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="h-100 p-5 bg-light border rounded-3">
+                    <h2>Endereço</h2>
+                    <p>Rua dos Lírios, 312, Chácara Primavera - Campinas.</p>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3676.5047251434453!2d-47.049604085561576!3d-22.857806341870468!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c8c5c55d90daff%3A0x40932b99295ffbf5!2sR.%20dos%20L%C3%ADrios%20-%20Ch%C3%A1cara%20Primavera%2C%20Campinas%20-%20SP%2C%2013087-420!5e0!3m2!1spt-BR!2sbr!4v1659724734447!5m2!1spt-BR!2sbr" class="m-o m-auto" width="100%" height="450" style="border: 0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="container mt-5 pt-5">
+            <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+                <p class="col-md-4 mb-0 text-muted">© 2022 <i class="mdi mdi-dog ms-2"></i> Doguinho's - Clínica Veterinária</p>
+                <span class="fs-4 fw-bold"></span>
+                <ul style="list-style: none;" class="col-md-4">
+                    <li><a href="https://www.flaticon.com/br/icones-gratis/vacina" class="text-muted" style="text-decoration: none;" title="vacina ícones">Vacina ícones criados por toempong - Flaticon</a></li>
+                    <li><a href="https://www.flaticon.com/br/icones-gratis/veterinario" class="text-muted" style="text-decoration: none;" title="veterinário ícones">Veterinário ícones criados por Freepik - Flaticon</a></li>
+                    <li><a href="https://www.flaticon.com/free-icons/vet" class="text-muted" style="text-decoration: none;" title="vet icons">Vet icons created by Smashicons - Flaticon</a></li>
+                </ul>
+            </footer>
+        </div>
+      </div>
+      
+      <script src="js/switch.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+</body>
+</html>
